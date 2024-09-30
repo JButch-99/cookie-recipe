@@ -10,7 +10,6 @@ body {
   font-style: italic;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
-  text-align: center;
   margin: 0% 20%;
   padding: 0% 2%;
 }
@@ -21,6 +20,9 @@ body {
   font-style:italic;
 }
 
-img {
-  margin: 0% 20%;
+
+button {
+  font-size: 150%;
+  font-weight: 1000;
+  font-style:italic;
 }
