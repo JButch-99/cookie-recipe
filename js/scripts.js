@@ -3,6 +3,7 @@ window.onload = function() {
     const button2 = document.getElementById("button2");
     const button3 = document.getElementById("button3");
     const button4 = document.getElementById("button4");
+    const button5 = document.getElementById("button5");
     let img = document.querySelector("img");
 
     button1.onclick = function() {
@@ -25,16 +26,19 @@ window.onload = function() {
     }
 
     button4.onclick = function() {
-        body.style.fontSize = "75%";
-        
+        body.style.fontSize = "100%";
+    }
+
+    button5.onclick = function() {
+        location.reload();
     }
 
     img.onmouseover = function() {
-        img.style.height = "500px";
+        img.style.height = "650px";
     }
 
     img.onmouseleave = function() {
-        img.style.height = "250px";
+        img.style.height = "390px";
     }
 
     let h1 = document.querySelector("h1");

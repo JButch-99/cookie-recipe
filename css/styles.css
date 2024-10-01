@@ -2,27 +2,19 @@
 body {
   background: black;
   color: white;
+  font-size: 100%;
 }
 
 .example {
-  color: lightblue;
   font-size: 350%;
   font-style: italic;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
   margin: 0% 20%;
   padding: 0% 2%;
 }
 
-.swap {
-  background-color: red;
-  color: crimson;
-  font-style:italic;
-}
-
-
 button {
   font-size: 150%;
-  font-weight: 1000;
   font-style:italic;
 }
